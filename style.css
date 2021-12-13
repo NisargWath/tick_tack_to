@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: rgb(170, 129, 207);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.gamecointainer{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.cointainer{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: sans-serif;
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background-color: rgb(228, 218, 220);
+}
+.info{
+    font-size: 25px;
+}
+.gameinfo{
+    padding: 0 34px;
+}
+.imgbox img{
+    width: 0;
+    transition: width is ease-in-out;
+}
+
+.br-0{
+    border-right: 0px;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#reset{
+    margin: 0 26px;
+    padding: 5px 12px;
+    background-color: rgb(187, 127, 187);
+    color: white;
+    font-weight: bold;
+}
